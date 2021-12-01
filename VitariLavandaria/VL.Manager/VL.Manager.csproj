@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VL.Core.Shared\VL.Core.Shared.csproj" />
+    <ProjectReference Include="..\VL.Core\VL.Core.csproj" />
+  </ItemGroup>
+
 </Project>

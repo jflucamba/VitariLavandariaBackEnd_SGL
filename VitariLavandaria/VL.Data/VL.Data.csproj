@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VL.Core.Shared\VL.Core.Shared.csproj" />
     <ProjectReference Include="..\VL.Core\VL.Core.csproj" />
+    <ProjectReference Include="..\VL.Manager\VL.Manager.csproj" />
   </ItemGroup>
 
 </Project>
