@@ -13,7 +13,7 @@ namespace VL.Manager.Interfaces
 
         Task<IEnumerable<Cargo>> GetCargosAsync();
 
-        Task<Cargo> InsertCargoAsync(Cargo novoCargo);
+        Task<Cargo> InsertCargoAsync(NovoCargo novoCargo);
 
         Task<Cargo> UpdateCargoAsync(AlterarCargo cargo);
     }

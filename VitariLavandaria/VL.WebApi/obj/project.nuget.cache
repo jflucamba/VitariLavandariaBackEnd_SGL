@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BbhQ/sAAPwA9ioGO8UXrX6VHKaoHauWlOwlBmDfErdfjxjQ6DL39h5MGNaRLiMwlDSTFzdcrtOJ1KpQcorbJwA==",
+  "dgSpecHash": "LR9yXLjIZQE7Yw6UWrRHcbAYbM2cGOZklj2ojrtn/x0URKxwZqPBJGEu+7Uw7D+MU3dYTtdFmzWTQ+zS/kNorA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\VitariLavandariaBackEnd_SGL\\VitariLavandaria\\VL.WebApi\\VL.WebApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
