@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VL.Data\VL.Data.csproj" />
     <ProjectReference Include="..\VL.Manager\VL.Manager.csproj" />
   </ItemGroup>
 
