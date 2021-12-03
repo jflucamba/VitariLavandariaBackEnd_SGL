@@ -33,7 +33,7 @@ namespace VL.Manager.Implementation
             return await cargoRepository.GetCargosAsync();
         }
 
-        public async Task<Cargo> InsertCargoAsync(Cargo novoCargo)
+        public async Task<Cargo> InsertCargoAsync(NovoCargo novoCargo)
         {
             var cargo = mapper.Map<Cargo>(novoCargo);
             return await cargoRepository.InsertCargoAsync(cargo);
