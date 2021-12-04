@@ -7,3 +7,4 @@ C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Core\ob
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Core\obj\Debug\netcoreapp3.1\VL.Core.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Core\obj\Debug\netcoreapp3.1\VL.Core.dll
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Core\obj\Debug\netcoreapp3.1\VL.Core.pdb
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Core\obj\Debug\netcoreapp3.1\VL.Core.csproj.AssemblyReference.cache
