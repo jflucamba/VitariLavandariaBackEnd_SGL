@@ -7,6 +7,7 @@ namespace VL.Data.Context
     {
         public DbSet<Cargo> Cargos { get; set; }
         public DbSet<EstadoPedido> EstadoPedidos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
         //public DbSet<Usuario> Usuarios { get; set; }
 
         public VlContext(DbContextOptions options) : base(options)

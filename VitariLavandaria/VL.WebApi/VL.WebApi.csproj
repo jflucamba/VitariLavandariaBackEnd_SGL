@@ -24,5 +24,9 @@
     <ProjectReference Include="..\VL.Manager\VL.Manager.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 
 </Project>

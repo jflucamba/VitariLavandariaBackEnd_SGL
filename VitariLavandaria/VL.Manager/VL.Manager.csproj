@@ -13,4 +13,8 @@
     <ProjectReference Include="..\VL.Core\VL.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Manager\" />
+  </ItemGroup>
+
 </Project>
