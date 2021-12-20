@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using VL.Core.Domain;
@@ -34,7 +33,7 @@ namespace VL.Manager.Implementation
             return await estadoPedido.GetEstadoPedidosAsync();
         }
 
-        public async Task<EstadoPedido> InsertEstadoPedidoAsync(EstadoPedido novoPedido)
+        public async Task<EstadoPedido> InsertEstadoPedidoAsync(NovoEstadoPedido novoPedido)
         {
             var pedido = mapper.Map<EstadoPedido>(novoPedido);
             return await estadoPedido.InsertEstadoPedidoAsync(pedido);

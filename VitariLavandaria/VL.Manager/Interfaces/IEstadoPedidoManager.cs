@@ -13,7 +13,7 @@ namespace VL.Manager.Interfaces
 
         Task<IEnumerable<EstadoPedido>> GetEstadoPedidosAsync();
 
-        Task<EstadoPedido> InsertEstadoPedidoAsync(EstadoPedido novoPedido);
+        Task<EstadoPedido> InsertEstadoPedidoAsync(NovoEstadoPedido novoPedido);
 
         Task<EstadoPedido> UpdateEstadoPedidoAsync(AlterarEstadoPedido pedido);
     }

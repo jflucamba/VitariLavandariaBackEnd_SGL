@@ -1,8 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using VL.Core.Domain;
 using VL.Core.Shared.ModelView.Produto;
@@ -14,7 +11,6 @@ namespace VL.WebApi.Controllers
     [ApiController]
     public class ProdutoController : ControllerBase
     {
-
         private readonly IProdutoManager produto;
 
         public ProdutoController(IProdutoManager produto)
@@ -71,6 +67,5 @@ namespace VL.WebApi.Controllers
             await produto.DeleteProdutoAsync(id);
             return NoContent();
         }
-
     }
 }

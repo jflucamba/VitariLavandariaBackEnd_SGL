@@ -15,7 +15,11 @@ namespace VL.WebApi.Configuration
             services.AddScoped<ICargoManager, CargoManager>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IProdutoManager, ProdutoManager>();
-            
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IProdutoManager, ProdutoManager>();
+            services.AddScoped<IEstadoPedidoRepository, EstadoPedidoRepository>();
+            services.AddScoped<IEstadoPedidoManager, EstadoPedidoManager>();
+
         }
     }
 }
