@@ -42,9 +42,10 @@ namespace VL.Manager.Implementation
             return await produto.InsertProdutoAsync(inserirProduto);
         }
 
-        public Task<Produto> UpdateProdutoAsync(AlterarProduto produto)
+        public async Task<Produto> UpdateProdutoAsync(AlterarProduto alterProduto)
         {
-            throw new NotImplementedException();
+            var updateProduto = mapper.Map<Produto>(alterProduto);
+            return await produto.UpdateProdutoAsync(alterProduto);
         }
     }
 }
