@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using VL.Core.Domain;
 using VL.Core.Shared.ModelView.Produto;
 
-namespace VL.Manager.Interfaces.Repository
+namespace VL.Manager.Interfaces.Manager
 {
-    public interface IProdutoRepository
+    public interface IProdutoManager
     {
         Task DeleteProdutoAsync(int id);
 
@@ -13,7 +13,7 @@ namespace VL.Manager.Interfaces.Repository
 
         Task<IEnumerable<Produto>> GetProdutosAsync();
 
-        Task<Produto> InsertProdutoAsync(Produto novoProduto);
+        Task<Produto> InsertProdutoAsync(NovoProduto novoProduto);
 
         Task<Produto> UpdateProdutoAsync(AlterarProduto produto);
     }
