@@ -12,4 +12,3 @@ C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.Shared.dll
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.Shared.pdb
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.pdb
-C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.CopyComplete

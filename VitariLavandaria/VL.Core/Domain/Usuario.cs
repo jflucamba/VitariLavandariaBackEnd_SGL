@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace VL.Core.Domain
 {
     public class Usuario
     {
-        public int Login { get; set; }
-        public int Senha { get; set; }
+        public string Login { get; set; }
+        public string Senha { get; set; }
 
-        //public ICollection<Cargo> Cargos { get; set; }
+        public ICollection<Cargo> Cargos { get; set; }
 
-
-        //public Usuario()
-        //{
-        //    Cargos = new HashSet<Cargo>();
-        //}
-
+        public Usuario()
+        {
+            Cargos = new HashSet<Cargo>();
+        }
     }
 }
