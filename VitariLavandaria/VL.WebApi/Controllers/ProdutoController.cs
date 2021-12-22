@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using VL.Core.Domain;
@@ -18,12 +19,14 @@ namespace VL.WebApi.Controllers
             this.produto = produto;
         }
 
+        //[Authorize]
         [HttpGet]
         [ProducesResponseType(typeof(Produto), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Get()
         {
             return Ok(await produto.GetProdutosAsync());
+            
         }
 
         [HttpGet("{id}")]

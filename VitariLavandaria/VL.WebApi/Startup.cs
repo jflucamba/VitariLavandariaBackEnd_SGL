@@ -20,6 +20,9 @@ namespace VL.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddJwtTConfiguration(Configuration);
+
             //services.AddFluentValidationConfiguration();
 
             services.AddAutoMapperConfiguration();
@@ -47,7 +50,9 @@ namespace VL.WebApi
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
+
+            app.UseJwtConfiguration();
 
             app.UseEndpoints(endpoints =>
             {

@@ -19,6 +19,8 @@ namespace VL.WebApi.Configuration
             services.AddScoped<IProdutoManager, ProdutoManager>();
             services.AddScoped<IEstadoPedidoRepository, EstadoPedidoRepository>();
             services.AddScoped<IEstadoPedidoManager, EstadoPedidoManager>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IUsuarioManager, UsuarioManager>();
 
         }
     }

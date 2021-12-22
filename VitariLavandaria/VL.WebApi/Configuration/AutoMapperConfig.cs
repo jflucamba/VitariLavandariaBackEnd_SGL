@@ -2,6 +2,7 @@
 using VL.Manager.Mappings;
 using VL.Manager.Mappings.EstadoPedidoMap;
 using VL.Manager.Mappings.ProdutoMap;
+using VL.Manager.Mappings.UsuarioMap;
 
 namespace VL.WebApi.Configuration
 {
@@ -15,7 +16,8 @@ namespace VL.WebApi.Configuration
                 typeof(NovoProdutoMappingProfile),
                 typeof(AlterarProdutoMappingProfile),
                 typeof(NovoEstadoPedidoMappingProfile),
-                typeof(AlterarEstadoPedidoMappingProfile));
+                typeof(AlterarEstadoPedidoMappingProfile),
+                typeof(UsuarioMappingProfile));
         }
     }
 }

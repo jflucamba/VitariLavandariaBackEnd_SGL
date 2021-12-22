@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Manager.deps.json
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Manager.dll
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Manager.pdb
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.dll
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.Shared.dll
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.Shared.pdb
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.pdb
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.AssemblyInfo.cs
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.CopyComplete
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.dll
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.pdb
