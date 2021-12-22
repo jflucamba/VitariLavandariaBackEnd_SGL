@@ -1,6 +1,6 @@
 ﻿namespace VL.Core.Shared.ModelView.Usuario
 {
-    public class ReferenciaFuncao
+    public class ReferenciaCargo
     {
         public int Id { get; set; }
     }

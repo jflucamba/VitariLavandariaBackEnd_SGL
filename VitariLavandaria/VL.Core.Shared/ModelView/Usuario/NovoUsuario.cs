@@ -7,6 +7,6 @@ namespace VL.Core.Shared.ModelView.Usuario
         public string Login { get; set; }
         public string Senha { get; set; }
 
-        public ICollection<ReferenciaFuncao> Funcoes { get; set; }
+        public ICollection<ReferenciaCargo> Funcoes { get; set; }
     }
 }
