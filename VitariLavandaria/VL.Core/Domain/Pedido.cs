@@ -12,6 +12,7 @@ namespace VL.Core.Domain
         public int ProdutoId { get; set; }
         public decimal PrecoUnidade { get; set; }
         public decimal Total { get; set; }
+        public int UsuarioId { get; set; }
 
     }
 }

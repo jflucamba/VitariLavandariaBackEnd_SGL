@@ -45,5 +45,7 @@ namespace VL.WebApi.Controllers
             var usuarioInserido = await manager.InsertAsync(usuario);
             return CreatedAtAction(nameof(Get), new { login = usuario.Login }, usuarioInserido);
         }
+
+
     }
 }
