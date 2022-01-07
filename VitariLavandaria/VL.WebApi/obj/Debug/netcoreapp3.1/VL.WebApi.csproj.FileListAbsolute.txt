@@ -80,3 +80,4 @@ C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.WebApi\
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.WebApi\obj\Debug\netcoreapp3.1\VL.WebApi.dll
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.WebApi\obj\Debug\netcoreapp3.1\VL.WebApi.pdb
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.WebApi\obj\Debug\netcoreapp3.1\VL.WebApi.genruntimeconfig.cache
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.WebApi\obj\Debug\netcoreapp3.1\VL.WebApi.csproj.CopyComplete
