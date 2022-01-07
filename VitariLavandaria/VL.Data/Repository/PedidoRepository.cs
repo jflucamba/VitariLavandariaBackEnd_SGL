@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using VL.Core.Domain;
+using VL.Core.Shared.ModelView.Pedido;
 using VL.Data.Context;
 using VL.Manager.Interfaces.Repository;
 
@@ -40,7 +41,7 @@ namespace VL.Data.Repository
             return novoPedido;
         }
 
-        public async Task<Pedido> UpdatePedidoAsync(Pedido pedido)
+        public async Task<Pedido> UpdatePedidoAsync(AlterarPedido pedido)
         {
             var pedidoConsultado = await context.Pedidos
                                                  //.Include(p => p.Endereco)

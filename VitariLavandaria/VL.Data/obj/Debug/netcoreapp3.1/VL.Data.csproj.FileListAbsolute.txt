@@ -17,3 +17,4 @@ C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Data\ob
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Data\obj\Debug\netcoreapp3.1\VL.Data.dll
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Data\obj\Debug\netcoreapp3.1\VL.Data.pdb
 C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Data\obj\Debug\netcoreapp3.1\VL.Data.genruntimeconfig.cache
+C:\Users\HP\source\repos\VitariLavandariaBackEnd_SGL\VitariLavandaria\VL.Data\obj\Debug\netcoreapp3.1\VL.Data.csproj.CopyComplete
