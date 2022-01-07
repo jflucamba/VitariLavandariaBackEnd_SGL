@@ -7,7 +7,7 @@ namespace VL.Manager.Interfaces.Repository
 {
     public interface IPedidoRepository
     {
-        Task<Pedido> DeletePedidoAsync(int id);
+        Task DeletePedidoAsync(int id);
 
         Task<Pedido> GetPedidoAsync(int id);
 
