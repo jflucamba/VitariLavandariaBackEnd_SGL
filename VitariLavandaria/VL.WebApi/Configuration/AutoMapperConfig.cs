@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using VL.Manager.Mappings;
 using VL.Manager.Mappings.EstadoPedidoMap;
+using VL.Manager.Mappings.PedidoMap;
 using VL.Manager.Mappings.ProdutoMap;
 using VL.Manager.Mappings.UsuarioMap;
 
@@ -13,11 +14,17 @@ namespace VL.WebApi.Configuration
             services.AddAutoMapper(
                 typeof(NovoCargoMappingProfile),
                 typeof(AlterarCargoMappingProfile),
+
                 typeof(NovoProdutoMappingProfile),
                 typeof(AlterarProdutoMappingProfile),
+
                 typeof(NovoEstadoPedidoMappingProfile),
                 typeof(AlterarEstadoPedidoMappingProfile),
-                typeof(UsuarioMappingProfile));
+                
+                typeof(UsuarioMappingProfile),
+                
+                typeof(NovoPedidoMappingProfile),
+                typeof(AlterarPedidoMappingProfile));
         }
     }
 }

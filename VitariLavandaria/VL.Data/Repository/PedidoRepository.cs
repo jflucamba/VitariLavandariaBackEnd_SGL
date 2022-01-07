@@ -59,16 +59,13 @@ namespace VL.Data.Repository
         }
 
         //Delete
-        public async Task<Pedido> DeletePedidoAsync(int id)
+        public async Task DeletePedidoAsync(int id)
         {
-            var pedidoConsultado = await context.Pedidos.FindAsync(id);
-            if (pedidoConsultado == null)
-            {
-                return null;
-            }
-            var pedidoRemovido = context.Pedidos.Remove(pedidoConsultado);
+            
+            var pedidoRemovido = await context.Pedidos.FindAsync(id);
+            context.Pedidos.Remove(pedidoRemovido);
             await context.SaveChangesAsync();
-            return pedidoRemovido.Entity;
+
         }
     }
 }
